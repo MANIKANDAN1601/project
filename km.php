@@ -2,7 +2,7 @@
 	$mydirectory=opendir("C:\wamp64\www");
 	echo "<table border=2>";
 	echo "<tr>";
-	echo "<th>Entrynamemk</th>";
+	echo "<th>Entryname</th>";
 	echo "<th align=\"centre\">size</th>";
 	echo "<tr>\n";
 	while($entryname=readdir($mydirectory))
